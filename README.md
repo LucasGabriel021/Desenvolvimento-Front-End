@@ -1,0 +1,1 @@
+Repositório de arquivos da disciplina de Desenvolvimento Front-End do 5° semestre do curso de ciência da computação. Neste repositório contém todos os arquivos de exemplos e exercícios desenvolvidos durante as aulas.
