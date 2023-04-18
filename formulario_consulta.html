@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="Author" content="Lucas Gabriel G. Oliveira">
+     <meta name="description" content="Exercpicio 5 relacionado a formulário">
+     <title>Formulário</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+     <div>
+          <div>
+               <h1>Formulário para marcação de consultas</h1>
+          </div>
+          <div>
+               <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div>
+                         <div>
+                              <label for="nomeUser">Informe o seu nome completo:</label><br>
+                              <input type="text" name="nomeUser" id="nomeUser" placeholder="Nome Completo">
+                         </div><br>
+                         <div>
+                              <label for="cpfUser">Informe o seu CPF:</label><br>
+                              <input type="text" name="cpfUser" id="cpfUser" placeholder="CPF">
+                         </div><br>
+                         <div>
+                              <label for="dataNscUser">Informe a data de nascimento:</label><br>
+                              <input type="date" name="dataNscUser" id="dataNscUser">
+                         </div><br>
+                         <div>
+                              <label for="enderecoUser">Informe o seu endereço:</label><br>
+                              <input type="text" name="enderecoUser" id="enderecoUser" placeholder="Endereço">
+                         </div><br>
+                         <div>
+                              <label for="cepUser">Informe o seu CEP:</label><br>
+                              <input type="text" name="cepUser" id="cepUser" placeholder="CEP">
+                         </div><br>
+                         <div>
+                              <label for="emailUser">Informe o seu e-mail:</label><br>
+                              <input type="email" name="emailUser" id="emailUser" placeholder="email@gmail.com">
+                         </div><br>
+                         <div>
+                              <label for="telefoneUser">Informe o seu telefone:</label><br>
+                              <input type="text" name="telefoneUser" id="telefoneUser" placeholder="(61) 9 9999-9999">
+                         </div><br>
+                    </div>
+               </fieldset><br><br>
+               <fieldset>
+                    <legend>Dados da Consulta</legend>
+                    <div>
+                         <div>
+                              <label for="categoriaAtendimento">Categoria do Atendimento:</label><br>
+                              <select name="categoriaAtendimento" id="categoriaAtendimento">
+                                   <option value="">Selecionar</option>
+                                   <option value="Cardiologia">Cardiologia</option>
+                                   <option value="Dermatologia">Dermatologia</option>
+                                   <option value="Psiquiatra">Psiquiatra</option>
+                                   <option value="Ginecologista">Ginecologista</option>
+                                   <option value="Infectologia">Infectologia</option>
+                                   <option value="Nutricionista">Nutricionista</option>
+                                   <option value="Pediatria">Pediatria</option>
+                              </select>
+                         </div><br>
+                         <div>
+                              <label for="dataConsulta">Informe a data da consulta:</label><br>
+                              <input type="date" name="dataConsulta" id="dataConsulta">
+                         </div><br>
+                         <div>
+                              <label for="categoriaAtendimento">Medicamentos Alérgicos:</label><br>
+                              <select name="categoriaAtendimento" id="categoriaAtendimento">
+                                   <option value="">Selecionar</option>
+                                   <option value="Antibióticos">Antibióticos</option>
+                                   <option value="Anti-inflamatórios">Anti Inflamatórios</option>
+                                   <option value="Anticonvulsivantes">Anticonvulsivantes</option>
+                                   <option value="Contraste de iodo">Contraste de iodo</option>
+                                   <option value="Medicamentos para quimioterapia">Medicamentos para quimioterapia</option>
+                                   <option value="Antibióticos">Antibióticos</option>
+                                   <option value="Relaxantes musculares">Relaxantes musculares</option>
+                              </select>
+                         </div><br>
+                         <div>
+                              <label for="infoConsulta">Disserte sobre seu atendimento logo abaixo:</label><br>
+                              <textarea name="infoConsulta" id="infoConsulta" cols="30" rows="10"></textarea>
+                         </div><br>
+                    </div>
+               </fieldset>
+          </div>
+     </div>
+</body>
+</html>
