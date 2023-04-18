@@ -1,0 +1,45 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     border: none;
+}
+
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     padding: 20px;
+     background-color: #c9c9c9;
+}
+
+#tabuleiro {
+     border: 10px solid #000;
+     border-collapse: collapse;
+}
+
+tr.linha-tabu {
+     width: 100%;
+     height: 90px;
+}
+
+tr.linha-tabu td {
+     padding: 20px;
+     width: 90px;
+     height: 90px;
+     text-align: center;
+}
+
+tr.linha-tabu td img {
+     width: 100%;
+     height: 100%;
+}
+
+.td-primaria {
+     background-color: #BFCCB5;
+}
+
+.td-secundaria {
+     background-color: #41644A;
+}
